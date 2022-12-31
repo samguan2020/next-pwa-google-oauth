@@ -1,7 +1,20 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+
+const withPWA = require('next-pwa')({
+  dest: "public",
+  register: true,
+  skipWaiting: true,
+})
+
+module.exports = withPWA({
   reactStrictMode: true,
   swcMinify: true,
-}
-
-module.exports = nextConfig
+  images: {
+    domains: [
+      'lh3.googleusercontent.com',
+      'cdn.pixabay.com',
+      'p16-amd-va.tiktokcdn.com',
+      'image.shutterstock.com'
+    ],
+  },
+})

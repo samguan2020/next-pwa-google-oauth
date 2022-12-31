@@ -45,7 +45,7 @@ const Home: NextPage = () => {
                   extra attention to featured content or information.
                 </p>
                 <p>
-                  <a className={styles.btn} href="https://nextjs.org/docs" target="_blank">
+                  <a className={styles.btn} href="https://nextjs.org/docs" target="_blank" rel="noreferrer">
                     Learn More
                   </a>
                 </p>
