@@ -34,3 +34,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # nextauth-app
 # nextauth-app
+
+https://mattermost.com/blog/add-google-and-github-login-to-next-js-app-with-nextauth/
+https://vercel.com/samguan2020/next-pwa-google-oauth/H2gnxKL5QHLfX7NhYwcu2Wn7bqkj
+https://next-pwa-google-oauth-q9kf.vercel.app/
